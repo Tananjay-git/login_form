@@ -1,0 +1,17 @@
+{
+  "name": "login-form",
+  "version": "1.0.0",
+  "description": "Login form",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tananjay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  }
+}

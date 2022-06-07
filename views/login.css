@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.356),#00000056),url('/static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* body:hover{
+   
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+.container{
+    /* border: 2px solid red; */
+    color: whitesmoke;
+    /* position: absolute;
+    top: 35%;
+    left: 35%; */
+    /* position: relative; */
+    /* height: 300px; */
+    /* width: 300px; */
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(3, 0, 0, 0.42);
+    
+}
+.container:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.616);
+
+}
+.container h1{
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 1px solid rgba(109, 109, 109, 0.477);
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+/* .container h1:hover{
+    font-family: sans-serif;
+    font-weight: 2px;
+} */
+
+.box{
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+.box input{
+    width: 75%;
+    margin: 20px 2px;
+    font-size: 20px;
+    padding: 5px 0;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background: transparent;
+    border-bottom: 1px solid rgb(76, 76, 76);
+    /* border-radius: 2px; */
+}
+
+.box i{
+    width: 25px;
+    /* float: left; */
+    text-align: center;
+    padding: 0 5px;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 23px;
+    padding: 8px;
+    /* border-radius: 10px; */
+    border: none;
+    background: transparent;
+    background: transparent;
+    border-bottom: 1px solid rgb(76, 76, 76);
+    color: whitesmoke;
+    
+}
+.btn:hover{
+    background: rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.616);
+}
+
+input:hover{
+    /* background: rgba(0, 0, 0, 0.018); */
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    
+}
